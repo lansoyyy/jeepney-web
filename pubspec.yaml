@@ -43,6 +43,7 @@ dependencies:
   firebase_auth:
   google_maps_flutter:
   easy_sidemenu: ^0.4.1
+  flutter_map:
 
 dev_dependencies:
   flutter_test:
