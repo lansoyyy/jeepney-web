@@ -56,7 +56,7 @@ class _PassengersTabState extends State<PassengersTab> {
                     itemCount: 100,
                     gridDelegate:
                         const SliverGridDelegateWithFixedCrossAxisCount(
-                            crossAxisCount: 5),
+                            crossAxisCount: 4),
                     itemBuilder: ((context, index) {
                       return Card(
                         elevation: 3,

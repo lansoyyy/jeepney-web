@@ -52,10 +52,10 @@ class HomeScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  Image.asset(
-                    'assets/images/logo.png',
-                    height: 100,
-                  ),
+                  // Image.asset(
+                  //   'assets/images/logo.png',
+                  //   height: 100,
+                  // ),
                   const SizedBox(
                     width: 10,
                   ),
