@@ -84,7 +84,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                       TextBold(
                           text: 'Web Server',
-                          fontSize: 65,
+                          fontSize: 52,
                           color: Colors.white),
                     ],
                   ),
@@ -105,7 +105,8 @@ class HomeScreen extends StatelessWidget {
                 children: [
                   Container(
                     width: 300,
-                    color: const Color.fromARGB(255, 134, 133, 133),
+                    color: const Color.fromARGB(255, 238, 235, 235)
+                        .withOpacity(0.2),
                     child: SideMenu(
                       style: SideMenuStyle(
                           openSideMenuWidth: 200,
@@ -116,7 +117,7 @@ class HomeScreen extends StatelessWidget {
                           selectedTitleTextStyle: const TextStyle(
                               color: Colors.white, fontFamily: 'QBold'),
                           unselectedTitleTextStyle: const TextStyle(
-                              color: Colors.white, fontFamily: 'QRegular'),
+                              color: Colors.black, fontFamily: 'QRegular'),
                           selectedColor: Colors.black26,
                           iconSize: 20,
                           showTooltip: true,
