@@ -5,10 +5,11 @@ import 'package:jeepney_web/screens/home_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
+      name: 'jeepney-ed3c6',
       options: const FirebaseOptions(
           authDomain: 'jeepney-ed3c6.firebaseapp.com',
           apiKey: "AIzaSyBIqZyHQXTOjDWLsaWV8yaxoADoo_vlTLA",
-          appId: "1:290773954732:web:09b96ba03b7e90cedd6f09",
+          appId: "1:290773954732:web:8cfbb1f951b87068dd6f09",
           messagingSenderId: "290773954732",
           projectId: "jeepney-ed3c6",
           storageBucket: "jeepney-ed3c6.appspot.com"));
