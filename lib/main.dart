@@ -1,8 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:jeepney_web/screens/home_screen.dart';
 
-void main() {
-  runApp(const MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+      options: const FirebaseOptions(
+          authDomain: 'jeepney-ed3c6.firebaseapp.com',
+          apiKey: "AIzaSyBIqZyHQXTOjDWLsaWV8yaxoADoo_vlTLA",
+          appId: "1:290773954732:web:09b96ba03b7e90cedd6f09",
+          messagingSenderId: "290773954732",
+          projectId: "jeepney-ed3c6",
+          storageBucket: "jeepney-ed3c6.appspot.com"));
 }
 
 class MyApp extends StatelessWidget {
