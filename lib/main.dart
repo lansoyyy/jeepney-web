@@ -13,6 +13,7 @@ void main() async {
           messagingSenderId: "290773954732",
           projectId: "jeepney-ed3c6",
           storageBucket: "jeepney-ed3c6.appspot.com"));
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
