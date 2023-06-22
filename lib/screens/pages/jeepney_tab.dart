@@ -86,7 +86,7 @@ class _JeepneyTabState extends State<JeepneyTab> {
                           itemCount: data.docs.length,
                           gridDelegate:
                               const SliverGridDelegateWithFixedCrossAxisCount(
-                                  crossAxisCount: 5),
+                                  crossAxisCount: 4),
                           itemBuilder: ((context, index) {
                             return Card(
                               elevation: 3,

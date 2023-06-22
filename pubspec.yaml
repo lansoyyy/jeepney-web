@@ -44,6 +44,7 @@ dependencies:
   google_maps_flutter:
   easy_sidemenu: ^0.4.1
   flutter_map:
+  firebase_database:
 
 dev_dependencies:
   flutter_test:

@@ -41,6 +41,12 @@ class HomeScreen extends StatelessWidget {
           })),
     ];
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+          child: const Icon(Icons.refresh),
+          onPressed: () {
+            Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (context) => HomeScreen()));
+          }),
       body: Column(
         children: [
           Container(
