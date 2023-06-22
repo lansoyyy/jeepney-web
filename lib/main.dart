@@ -5,7 +5,6 @@ import 'package:jeepney_web/screens/home_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-      name: 'jeepney-ed3c6',
       options: const FirebaseOptions(
           authDomain: 'jeepney-ed3c6.firebaseapp.com',
           apiKey: "AIzaSyBIqZyHQXTOjDWLsaWV8yaxoADoo_vlTLA",
